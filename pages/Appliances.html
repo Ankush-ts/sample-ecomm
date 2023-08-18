@@ -9,11 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.0.js"
-        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -22,9 +17,7 @@
     <!-- Navbar content -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./images/amazon.png" alt="Bootstrap" width="70" class="d-inline-block align-text-top">
-            </a>
+            <a class="navbar-brand" href="#"><img src="../images/amazon.png" width="80px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Return & Orders</a>
@@ -44,19 +37,19 @@
                             Products
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./pages/Appliances.html">Appliances</a></li>
+                            <li><a class="dropdown-item" href="#">Appliances</a></li>
 
-                            <li><a class="dropdown-item" href="./pages/Electronics.html">Electronics</a></li>
+                            <li><a class="dropdown-item" href="./Electronics.html">Electronics</a></li>
 
 
-                            <li><a class="dropdown-item" href="./pages/Cosmetics.html">Cosmetics</a></li>
+                            <li><a class="dropdown-item" href="./Cosmetics.html">Cosmetics</a></li>
                             <li><a class="dropdown-item" href="#">Furniture</a></li>
                             <li><a class="dropdown-item" href="#">Games</a></li>
                             <li><a class="dropdown-item" href="#">Shoes</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Click for More</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -74,74 +67,52 @@
 
 
 
-    <!-- top banner -->
-    <section id="top-banner">
 
-        <div class="container">
-            <div class="jumbotron">
-
-
-                <h1 class="display-5">Prime Day Sale!</h1>
-                <p class="lead">Early Access to members</p>
-                <hr class="my-4">
-
-                <p class="lead">
-                    <button class="btn btn-primary btn-lg" href="#" id="do-something" onClick="btnClick()"
-                        role="button">Do something
-                        Amazing</button>
-                    <a href="https://google.com" target="_blank">Google</a>
-
-                </p>
-            </div>
-        </div>
-        </div>
-
-    </section>
 
     <!-- products  -->
-    <section id="top-products" class="bg-dark p-5">
-        <div class="container">
+    <section id="products-details">
+        <div class="container mt-3">
             <div class="row">
-                <div class="col-lg-3 mb-2">
-                    <div class="card">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="https://picsum.photos/536/354" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Electronics</h5>
+                            <h5 class="card-title">AC</h5>
                             <p class="card-text">Upto 30% off.</p>
-                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
 
                 </div>
-                <div class="col-lg-3 mb-2">
-                    <div class="card">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="https://picsum.photos/536/354" alt="Pharmacy">
                         <div class="card-body">
-                            <h5 class="card-title">Pharmacy</h5>
+                            <h5 class="card-title">Refrigerator</h5>
                             <p class="card-text">Upto 40% off</p>
-                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
 
                 </div>
-                <div class="col-lg-3 mb-2">
-                    <div class="card">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="https://picsum.photos/536/354" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Samsung Products</h5>
+                            <h5 class="card-title">OLED TV's</h5>
                             <p class="card-text">30-40% off</p>
-                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
 
                 </div>
-                <div class="col-lg-3 mb-2">
-                    <div class="card">
-                        <img class="card-img-top " src="https://picsum.photos/536/354" alt="Card image cap">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://picsum.photos/536/354" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Front Load</h5>
+                            <h5 class="card-title">Washing Machines</h5>
                             <p class="card-text">20% off.</p>
-                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
 
@@ -153,8 +124,9 @@
     </section>
 
 
+    <!-- review/feedback  -->
 
-
+    <!-- contact -->
 
     <!-- footer  -->
     <div class="container">
@@ -169,9 +141,9 @@
             <p class="text-center text-muted">© 2022 Company, Inc</p>
 
             <h3>Connect with Us</h3>
-            <a href="#" target="_blank">
+            <a href="#">
                 <img src="/images/facebook.png" alt="Facebook" width="24px" /></a>
-            <a href="#" target="_blank">
+            <a href="#">
                 <img src="/images/twitter.png" alt="Twitter" width="24px" /></a>
             <a href="#">
                 <img src="/images/Instagram.svg" alt="Instagram" width="24px" /></a>
@@ -182,71 +154,13 @@
 
 
 
-
-
     <!-- Script  -->
-    <script>
-
-        function btnClick() {
-            //     // document.getElementsByTagName('img')[4].remove()
-            //     document.getElementsByClassName('card-img-top')[2].remove()
-            // 
-
-            // const bunnu = document.querySelectorAll('.card-img-top')
-            // for (let i = 0; i < bunnu.length; i++) {
-            //     bunnu[i].remove()
-            // }
-            // document.querySelector('#products').style.backgroundColor = "cornflowerblue"
-            document.getElementById('top-products').classList.toggle('bg-dark')
-            document.querySelector('#top-products').style.backgroundColor = 
-            document.querySelectorAll('#top-products .card-title')[2].style.fontSize = '2em'
-            $('#top-products').toggle()
 
 
-        }
-
-    </script>
-
-
-
-
-    <script>
-        $(document).ready(function(){
-
-
-
-        
-        fetch('https://fakestoreapi.com/products')
-        .then(function (res){
-            return res.json()
-        })
-        .then(function(data){
-            data.forEach(element=>{
-
-            
-
-            
-                $("#top-products .container .row").append(`
-
-                    <div class="col-lg-3 col-md-4 mt-1">
-                        <div class="card" >
-                            <img class="card-img-top" src="${element.image}" height="300" width="250" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">${element.title}</h5>
-                                <p class="card-text">Upto 30% off.</p>
-                                <a href="#" class="btn btn-warning">Add to Cart</a>
-                                <a href="#" class="btn btn-primary">Show Details</a>
-                                  
-                            </div>
-                        </div>
-                    </div>`)
-            })
-        })
-    })
-
-
-
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
